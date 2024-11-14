@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "custommalloc.h": "c"
+    }
+}

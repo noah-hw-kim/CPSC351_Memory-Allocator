@@ -4,11 +4,10 @@ hello:
 mallocMain: mallocMain.c
 	gcc -o mallocMain mallocMain.c
 
-runWithoutCustomMalloc: mallocMain.c
-	./mallocMain
-
-runWithCustomMalloc: customMalloc.c mallocMain.c
+mallocMainWithCustomMalloc: customMalloc.c mallocMain.c
 	gcc -o mallocMain customMalloc.c mallocMain.c
+
+run: mallocMain.c
 	./mallocMain
 
 clean:
