@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "custommalloc.h": "c"
+        "custommalloc.h": "c",
+        "stdlib.h": "c",
+        "stdbool.h": "c"
     }
 }
